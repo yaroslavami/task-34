@@ -1,0 +1,77 @@
+/* App.css */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.friend-list {
+  list-style: none;
+  padding: 0;
+}
+
+.friend-list li {
+  margin: 10px 0;
+}
+
+.friend-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.friend-link:hover {
+  color: #007bff;
+}
+
+.friend-details {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.friend-details h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.friend-details h2,
+.friend-details h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
